@@ -12,7 +12,8 @@ body{
     text-decoration: none;
 }
 .bkn{
-    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    background: rgb(12,0,92);
+    background: radial-gradient(circle, rgba(12,0,92,1) 0%, rgba(70,70,70,1) 0%, rgba(0,0,0,1) 43%);
 }
 .navbar-brand{
     opacity: 0.6;
@@ -30,9 +31,10 @@ body{
 }
 .quote{
     font-size: 1.3em;
+    margin-bottom: 15%;
 }
 .indication{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 .fade-in {
 	-webkit-animation: fade-in 3s ease-in-out both;
