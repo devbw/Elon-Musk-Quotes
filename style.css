@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.bkn{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+.navbar-brand{
+    opacity: 0.6;
+}
+.text-light{
+    font-family: 'Raleway', sans-serif;
+}
+.musk{
+    width: 130px;
+    height: auto;
+    transition: 0.9s;
+}
+.musk:hover{
+    opacity: 0.5;
+}
+.quote{
+    font-size: 1.3em;
+}
+.indication{
+    font-size: 0.8em;
+}
+.fade-in {
+	-webkit-animation: fade-in 3s ease-in-out both;
+	animation: fade-in 3s ease-in-out both;
+}
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@media (max-width: 840px){
+	.card-container{
+        display: none;
+    }
+	.card-container-mobile{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
